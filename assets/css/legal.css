@@ -1,0 +1,29 @@
+/* ==========================================================
+   Datenschutz
+========================================================== */
+
+.legal ul {
+  margin: 20px 0 30px 22px;
+
+  color: #666;
+
+  line-height: 1.9;
+}
+
+.legal li {
+  margin-bottom: 10px;
+}
+
+.legal strong {
+  color: var(--color-dark);
+
+  font-weight: 600;
+}
+
+.legal section {
+  margin-bottom: 60px;
+}
+
+.legal h2 {
+  scroll-margin-top: 120px;
+}

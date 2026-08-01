@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 340">
+  <defs>
+    <style>
+      .gold{fill:#C8A15A;}
+      .white{fill:#FFFFFF;}
+      .stroke{fill:none;stroke:#C8A15A;stroke-width:10;stroke-linecap:round;stroke-linejoin:round;}
+      text{font-family:Inter,Arial,sans-serif}
+    </style>
+  </defs>
+
+  <!-- Mountain -->
+  <path class="stroke"
+        d="M250 55
+           L325 15
+           L410 70
+           L485 28
+           L565 80
+           L655 40
+           L730 72
+           L810 48"/>
+
+  <!-- Wordmark -->
+  <text x="170" y="165" font-size="118" font-weight="600" class="white">LOIS</text>
+  <text x="510" y="165" font-size="118" font-weight="600" class="gold">A</text>
+  <text x="590" y="165" font-size="118" font-weight="600" class="white">RO</text>
+
+  <!-- Claim -->
+  <line x1="180" y1="235" x2="365" y2="235" stroke="#C8A15A" stroke-width="3"/>
+  <line x1="835" y1="235" x2="1020" y2="235" stroke="#C8A15A" stroke-width="3"/>
+
+  <text x="405" y="246"
+        font-size="30"
+        font-weight="500"
+        text-anchor="middle"
+        class="gold"
+        transform="translate(200,0)">
+    Nah. Modern. Jederzeit.
+  </text>
+</svg>
