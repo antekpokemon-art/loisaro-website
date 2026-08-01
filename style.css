@@ -1,0 +1,213 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+
+    font-family:'Montserrat',sans-serif;
+    background:#ffffff;
+    color:#111111;
+
+}
+
+.container{
+
+    width:100%;
+    max-width:1200px;
+
+    margin:auto;
+
+    min-height:100vh;
+
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+
+    padding:70px 30px;
+
+}
+
+header{
+
+    text-align:center;
+
+}
+
+.logo{
+
+    font-size:88px;
+    font-weight:300;
+    letter-spacing:18px;
+
+}
+
+.logo span{
+
+    color:#C9A35B;
+
+}
+
+.claim{
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    gap:25px;
+
+    margin-top:30px;
+
+}
+
+.claim p{
+
+    letter-spacing:10px;
+
+    font-size:18px;
+
+    font-weight:400;
+
+}
+
+.line{
+
+    width:80px;
+
+    height:1px;
+
+    background:#C9A35B;
+
+}
+
+main{
+
+    text-align:center;
+
+    margin:90px 0;
+
+}
+
+main h2{
+
+    color:#C9A35B;
+
+    letter-spacing:10px;
+
+    font-weight:400;
+
+    font-size:34px;
+
+    margin-bottom:35px;
+
+}
+
+.intro{
+
+    max-width:760px;
+
+    margin:auto;
+
+    font-size:24px;
+
+    line-height:1.7;
+
+    font-weight:300;
+
+}
+
+.contact{
+
+    display:flex;
+
+    justify-content:space-around;
+
+    gap:30px;
+
+    margin-top:40px;
+
+    margin-bottom:70px;
+
+}
+
+.contact-item{
+
+    text-align:center;
+
+}
+
+.contact-item h3{
+
+    font-weight:500;
+
+    font-size:24px;
+
+}
+
+.contact-item p{
+
+    color:#C9A35B;
+
+    margin-top:10px;
+
+    font-size:20px;
+
+}
+
+footer{
+
+    text-align:center;
+
+    color:#C9A35B;
+
+    letter-spacing:8px;
+
+    font-size:20px;
+
+}
+
+@media(max-width:900px){
+
+.logo{
+
+font-size:56px;
+letter-spacing:8px;
+
+}
+
+.claim{
+
+flex-direction:column;
+
+gap:15px;
+
+}
+
+.line{
+
+display:none;
+
+}
+
+main h2{
+
+font-size:26px;
+
+}
+
+.intro{
+
+font-size:18px;
+
+}
+
+.contact{
+
+flex-direction:column;
+
+}
+
+}
