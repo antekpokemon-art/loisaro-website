@@ -510,12 +510,7 @@
               </div>
             </div>
 
-            <form
-              class="contact-form"
-              action="sendmail.php"
-              method="POST"
-              autocomplete="on"
-            >
+            <form class="contact-form" id="contact-form" autocomplete="on">
               <input type="text" name="name" placeholder="Name" required />
 
               <input type="email" name="email" placeholder="E-Mail" required />
@@ -529,7 +524,9 @@
                 required
               ></textarea>
 
-              <button type="submit" class="btn">Beratung anfragen</button>
+              <button type="submit" class="btn" id="submit-btn">
+                Beratung anfragen
+              </button>
             </form>
           </div>
         </div>
