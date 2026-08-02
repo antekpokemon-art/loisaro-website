@@ -3,41 +3,36 @@
 // ==========================================
 
 const observer = new IntersectionObserver(
-  (entries) => {
+  (entries, observer) => {
     entries.forEach((entry) => {
-      if (entry.isIntersecting) {
-        entry.target.classList.add("show");
+      if (!entry.isIntersecting) return;
 
-        observer.unobserve(entry.target);
-      }
+      entry.target.classList.add("show");
+      observer.unobserve(entry.target);
     });
   },
   {
-    threshold: 0.15,
-    rootMargin: "0px 0px -60px 0px",
+    threshold: 0.25,
+    rootMargin: "0px 0px -20% 0px",
   },
 );
 
 document
   .querySelectorAll(
     `
-.section-heading,
-.intro-card,
-.showcase-text,
-.showcase-image,
-.process-item,
-.location-card,
-.advantage,
-.contact-intro,
-.contact-info,
-.contact-form,
-.footer-brand,
-.footer-links,
-.footer-bottom
-`,
+    .section-heading,
+    .intro-card,
+    .showcase-text,
+    .showcase-image,
+    .process-item,
+    .location-card,
+    .advantage,
+    .contact-intro,
+    .contact-info,
+    .contact-form
+  `,
   )
   .forEach((el) => {
     el.classList.add("hidden");
-
     observer.observe(el);
   });

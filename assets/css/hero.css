@@ -206,9 +206,9 @@
 
   left: 50%;
 
-  bottom: 38px;
+  bottom: 40px;
 
-  transform: translateX(-50%);
+  transform: translateX(-47%);
 
   display: flex;
 
@@ -534,19 +534,20 @@
   .hero {
     min-height: 100svh;
 
-    padding-inline: 20px;
+    padding-inline: 0;
   }
 
   .hero-content {
-    padding-top: 120px;
-
+    padding-top: 135px;
     padding-bottom: 70px;
+    padding-left: 20px;
+    padding-right: 20px;
   }
 
   .hero-logo {
     width: 300px;
 
-    margin-bottom: 40px;
+    margin-bottom: 30px;
   }
 
   .hero h1 {
@@ -576,7 +577,7 @@
   }
 
   .scroll-indicator {
-    bottom: 25px;
+    bottom: 40px;
   }
 }
 
